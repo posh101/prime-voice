@@ -1225,6 +1225,7 @@ a:focus {
     margin: 0 15px;
     overflow: hidden;
     background: #f3f6ff;
+    border-radius: 1rem;
 }
 
 .causes .causes-img {
