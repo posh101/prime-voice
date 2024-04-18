@@ -56,7 +56,7 @@ header{
 }
 
 .blog-logo img {
-    font-size: rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -151,6 +151,23 @@ header{
     color: var(--text-color);
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.post-date {
+    display: flex;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 4px;
+    color: #999;
+}
+.post-description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 5px 0 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
