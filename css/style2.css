@@ -499,6 +499,11 @@ select {
     text-align: center;
 
    }
+   .post-filter{
+    display:grid;
+    grid-template-columns: auto;
+    gap: 2rem;
+   }
  }
  @media (max-width: 396px){
    .home-title {
